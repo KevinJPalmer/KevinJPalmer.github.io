@@ -67,7 +67,19 @@ h5 {
   font-style: italic;
 
 }
+h2{
+  color :#0F706C;
+}
 #headshot-img {
   padding: 10px;
   border-radius: 50%;
+ width: 300px;
+ height: auto;
+
+}
+.shift-down{
+  padding-top: 90px;
+}
+.mb-80{
+  margin-bottom: 80px;
 }
