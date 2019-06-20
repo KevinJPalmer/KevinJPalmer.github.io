@@ -77,13 +77,32 @@ h2{
  height: auto;
 
 }
-.shift-down{
-  padding-top: 90px;
+.responsiveImg {
+  width: 100%;
+  height: auto;
 }
-.mb-80{
-  margin-bottom: 80px;
+
+
+.projects {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* grid-template-rows: repeat(2, 100px); */
 }
+img {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+.portfolioImgs {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+
+}
+
 
 @media only screen and (max-width: 527px) {
 
-  }
+}
