@@ -99,10 +99,13 @@ img {
   height: 200px;
   width: 100%;
   object-fit: cover;
-
 }
 
-
+.imgBorders{
+border-width:3px;
+border-style:solid;
+border-color: steelblue;
+}
 @media only screen and (max-width: 527px) {
 
 }
